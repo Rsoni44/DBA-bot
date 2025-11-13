@@ -6,18 +6,26 @@ python-dotenv>=1.0.0
 pandas>=2.0.0
 numpy>=1.24.0
 
-# Web framework (if needed)
+# Web framework
 fastapi>=0.104.0
 uvicorn>=0.24.0
+python-multipart>=0.0.6
+
+# Database
+sqlalchemy>=2.0.0
+alembic>=1.12.0
+
+# Vector database and embeddings
+chromadb>=0.4.0
+sentence-transformers>=2.2.0
+
+# PDF processing
+pypdf2>=3.0.0
+pdfplumber>=0.10.0
 
 # Utilities
 pydantic>=2.0.0
 requests>=2.31.0
-
-# Optional: Vector database and embeddings
-# chromadb>=0.4.0
-# langchain>=0.1.0
-# langchain-anthropic>=0.1.0
 
 # Testing
 pytest>=7.4.0
